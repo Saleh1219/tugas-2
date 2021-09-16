@@ -20,8 +20,10 @@ header{
 	height: 65px;
 	width: 100%;
 	background-color: rgba(34, 49, 52, 0.7);
-	position: absolute;
+	position: fixed;
 	top: 0;
+	z-index: 10;
+	
 }
 
 .logo {
@@ -59,7 +61,7 @@ header{
 .top-wrapper{
 	padding: 180px 0 100px 0;
 	color: white;
-	background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+	background-image: url(https://get.pxhere.com/photo/laptop-notebook-computer-writing-work-hand-typing-coffee-keyboard-technology-busy-internet-office-business-modern-programming-design-hands-pc-network-workplace-personal-computer-personal-computer-hardware-883504.jpg);
 	background-size: cover;
 	text-align: center;
 }
